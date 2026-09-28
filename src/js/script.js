@@ -25,3 +25,13 @@ let habilitacao = true;
 let dirigir = (idadeTem >= 18) && habilitacao;
 console.log("O usuário pode dirigir?", dirigir)
 
+// Condicional
+if (false) {
+    console.log("É VERDADEIRO")
+}
+
+if(true) {
+    console.log("Verdadeiro");
+} else {
+    console.log("False");
+}
