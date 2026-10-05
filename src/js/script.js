@@ -35,3 +35,43 @@ if(true) {
 } else {
     console.log("False");
 }
+
+// if / if else / else encadeado
+
+let nota = 2;
+if (nota >= 8) {
+    console.log("Aprovado");
+} else if (nota >= 6) {
+    console.log("Ficou de exame");
+} else {
+    console.log("Reprovado!");
+}
+
+// Switch Case
+let diaSemana = 3;
+switch(diaSemana) {
+    case 1:
+        console.log("Segunda")
+        break;
+    case 2:
+        console.log("Terça")
+        break;
+    case 3:
+        console.log("Quarta")
+        break;
+    default:
+        console.log("Outro Dia")
+}
+
+// Ternário
+// let notaUsuario = (nota >= 6) ? "Aprovado!" : "Reprovado!";
+// console.log(notaUsuario);
+
+let jogada = 6;
+
+let resultado = jogada <= 5 ? "Ruim" :
+                jogada > 5 && jogada <= 7 ? "Boa" :
+                "Excelente";
+console.log(resultado);
+
+// FOR
